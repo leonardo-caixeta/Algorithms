@@ -1,6 +1,6 @@
 def is_anagram(first_string: str, second_string: str):
-    sorted_first_str = ''.join(merge_sort(first_string.lower()))
     sorted_second_str = ''.join(merge_sort(second_string.lower()))
+    sorted_first_str = ''.join(merge_sort(first_string.lower()))
     if not first_string or not second_string:
         return (sorted_first_str, sorted_second_str, False)
 
